@@ -50,21 +50,16 @@ datasets
 
 dataset1:
 ```
-python train_OnlyD_deepseek.py --data_path ./datasets/Wetland/ --source_name ZY1-02D_HHK_2020 --target_name ZY1-02D_Yancheng_A --re_ratio 1 --max_epoch 50 --log_interval 5 --training_sample_ratio  0.8 --batch_size 256 --seed 233
+python train.py --data_path ./datasets/Wetland/ --source_name ZY1-02D_HHK_2020 --target_name ZY1-02D_Yancheng_A --re_ratio 1 --max_epoch 50 --log_interval 5 --training_sample_ratio  0.8 --batch_size 256 --seed 233
 ```
 dataset2:
 ```
-python train_OnlyD_deepseek.py --data_path ./datasets/Wetland/ --source_name HHK_20200628 --target_name HHK_20210929 --re_ratio 1 --max_epoch 50 --log_interval 5  --training_sample_ratio 0.8 --batch_size 256 --seed 233
+python train.py --data_path ./datasets/Wetland/ --source_name HHK_20200628 --target_name HHK_20210929 --re_ratio 1 --max_epoch 50 --log_interval 5  --training_sample_ratio 0.8 --batch_size 256 --seed 233
 ```
 dataset3:
 ```
-python train_OnlyD_deepseek.py --data_path ./datasets/Wetland/ --source_name ZY1-02D_Yancheng_B --target_name GF5_Yancheng --re_ratio 1 --max_epoch 50 --log_interval 5 --dim 512 --training_sample_ratio 0.8 --seed 233 --batch_size 256 --seed 233
+python train.py --data_path ./datasets/Wetland/ --source_name ZY1-02D_Yancheng_B --target_name GF5_Yancheng --re_ratio 1 --max_epoch 50 --log_interval 5 --dim 512 --training_sample_ratio 0.8 --seed 233 --batch_size 256 --seed 233
 ```
 
-<p align='center'>
-  <img src='config_H13.png' width="800px">
-  <img src='config_PU.png' width="800px">
-  <img src='config_Dioni.png' width="800px">
-</p>
 
 
